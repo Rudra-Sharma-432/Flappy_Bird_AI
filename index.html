@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird AI</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <canvas id="myCanvas"></canvas>
+    <div id="container">
+      <p>Birds Alive : <span id="aliveBirds">0</span></p>
+      <p>Player's High Score : <span id="playerHighScore">0</span></p>
+      <p>Score : <span id="score">0</span></p>
+      <p>Pipe Crossed : <span id="pipeCrossed">0</span></p>
+      <p>AI's Best Score : <span id="AIhighScore">0</span></p>
+      <p>Best Birds' Score : <span id="bestBirdScore">0</span></p>
+      <p>Copy Best Weights : <button onclick="copyArray(0)">Copy</button></p>
+      <p>Copy Best Baises : <button onclick="copyArray(1)">Copy</button></p>
+      <br>
+      <input type="range" id="myRange" min="1" max="100" value="1">
+      <p>Simulation Speed : <span id="rangeValue">1</span></p>
+      <br>
+      <p>Average Score : <span id="avgScore">-</span></p>
+      <p>Live Average Score : <span id="liveAvgScore">-</span></p>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="bird.js"></script>
+    <script src="simulation.js"></script>
+  </body>
+
+</html>
