@@ -1,0 +1,42 @@
+*{margin: 0; padding: 0;}
+
+body {
+  background: #171717;
+  position: relative;
+}
+
+#myCanvas {
+  position: absolute;
+  left: 5vw;
+  top: 5vh;
+  background: #1aa7f3;
+  border-radius: 5px;
+}
+
+div {
+  position: absolute;
+  /* width: calc(300px - 10px);
+  height: 500px; */
+  background: #333333;
+  color: azure;
+  right: 5vw;
+  top: 5vh;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px;
+  background: #222222;
+}
+
+button {
+  font-size: 12px;
+  width: 33px;
+  height: 18px;
+  cursor: pointer;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
